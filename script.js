@@ -1,8 +1,8 @@
 let docTitle = document.title;
-window.addEventListener("blur", () => {
+addEventListener("blur", () => {
     document.title = "Volte Logo! :(";
 })
-window.addEventListener("focus", () => {
+addEventListener("focus", () => {
     document.title = docTitle;
 })
 
@@ -16,8 +16,8 @@ togglebtn.addEventListener("click", function(){
 })
 
 var typed = new Typed(".input",{
-    strings:["Multiinstrumentista","Artista de rua","Desenvolvedor Frontend"],
-    typeSpeed:70,
-    backspeed:55,
+    strings:[,"Musico","Multiinstrumentista","Artista de rua","Desenvolvedor Frontend"],
+    typeSpeed:110,
+    backSpeed:75,
     loop:true
 })
