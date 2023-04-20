@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 *{
     box-sizing: border-box;
@@ -9,12 +8,13 @@
 }
 body{
     overflow-x: hidden;
+    background-color: #222;
 }
 .cv-header{
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background: #222;
+    /*background: #222;*/
 }
 .wrapper{
     width: 1280px;
@@ -80,6 +80,7 @@ nav .navlinks li a{
     justify-content: space-around;
     /*align-items: center;*/
     padding-top: 4rem;
+    margin-bottom: 40px;
 }
 .container .cv-pic{
     width: 300px;
@@ -211,5 +212,12 @@ iframe{
     }
     .hero-text{
         padding: 40px 0px;
+    }
+    iframe{
+        margin-top: 20px;
+        width: 100%;
+    }
+    img{
+        width: 100%;
     }
 }
