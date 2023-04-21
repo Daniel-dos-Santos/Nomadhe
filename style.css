@@ -154,6 +154,15 @@ a{
 iframe{
     border-radius: 8%;
 }
+.container .gallery{
+    display: flexbox;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.gallery img{
+    border-radius: 8%;
+    border: 5px solid #d5d5d5
+}
 @media(max-width:930px)
 {
     nav .togglebtn{
@@ -201,6 +210,10 @@ iframe{
     }
     nav .navlinks.open{
         right: 0;
+    }
+    iframe{
+        width: 150%;
+        margin: 40px;
     }
 }
 @media(max-width:768px)
