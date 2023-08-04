@@ -293,9 +293,9 @@ iframe{
 {
     .container{
         align-items: center;
-        width: 100%;
         padding-top: 2rem;
     }
+
     .hero-text{
         padding: 40px 0px;
     }
