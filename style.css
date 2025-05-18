@@ -16,6 +16,10 @@ body{
     overflow-x: hidden;
     background-color: #202020;
 }
+body .galeria
+{
+    color: #007ced;
+}
 .cv-header{
     width: 100%;
     height: 100%;
